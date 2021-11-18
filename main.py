@@ -185,7 +185,7 @@ def list_videos(category):
         list_item.setProperty('IsPlayable', 'true')
         # Create a URL for a plugin recursive call.
         # Example: plugin://plugin.video.example/?action=play&video=http://www.vidsplay.com/wp-content/uploads/2017/04/crab.mp4
-        media_link = 'https://videoserver2.org/live/ozKRxcpGc5LskTQYZQTk8w/1527711520/f08680c36343eb40cf3e173692905022.m3u8'
+        media_link = ''
         video_url = 'plugin://plugin.video.f4mTester/?url=' + quote_plus(media_link) + '&amp;streamtype=HLSRETRY&name=TestStream'
         #url = get_url(action='play', video=video['video'])
         url = get_url(action='play', video=video_url)
